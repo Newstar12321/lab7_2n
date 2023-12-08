@@ -33,7 +33,6 @@ int main()
 	switch (n)
 	{
 	case 1:
-		cout << array[0];
 		break;
 	case 2:
 		if (array[0] < array[1])
@@ -101,6 +100,7 @@ void ar_sqrt(size_t n, int* array)
 
 void ar_out(size_t n, int* array)
 {
+	cout << "Массив после преобразований:\n";
 	for (size_t i = 0; i < n; i++)
 	{
 		cout << array[i] << " ";
