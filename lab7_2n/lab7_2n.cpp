@@ -18,7 +18,7 @@ int main()
 	setlocale(LC_ALL, "ru");
 
 	size_t n;
-	cout << "Введите размер матрицы: ";
+	cout << "Введите размер массива: ";
 	cin >> n;
 
 	if (n == 0)
@@ -56,7 +56,7 @@ int main()
 
 void ar_in(size_t n, int* array)
 {
-	cout << "Введите значения матрицы:\n";
+	cout << "Введите значения массива:\n";
 	for (size_t i = 0; i < n; i++)
 	{
 		cin >> array[i];
