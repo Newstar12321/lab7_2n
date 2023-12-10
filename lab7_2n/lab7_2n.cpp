@@ -38,11 +38,9 @@ int main()
 		if (array[0] < array[1])
 		{
 			array[0] *= array[0];
+			break;
 		}
-		else
-		{
-			array[1] *= array[1];
-		}
+		array[1] *= array[1];
 		break;
 	default:
 		ar_sqrt(n, array);
